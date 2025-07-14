@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  margin: 0;      /* dış kenarlardaki mesafeyi 0 piksel yapar. */
+  padding: 20px;  /* içerik (metin, resim vb.) kenarlara yapışmaz, etrafında 20px'lik nefes alanı olur. */
+  text-align: center;
+}
+
+.nav a{
+    color: #a94f4f;
+}
+
+section {
+  margin-bottom: 40px; /*  Her <section>’ın altına 40 piksel boşluk ekler. */
+}
+
+h2 {
+  
+  padding-bottom: 5px;  /* <h2> başlığının alt kısmına 5 piksel kadar boşluk ekler.*/
+  color: #a94f4f;
+  text-align: center;
+}
+nav {
+  display: flex;          /* Yan yana dizer */
+  justify-content: center; /* Ortalar */
+  gap: 20px;              /* Linkler arası boşluk */
+  padding: 10px;
+}
+ul {
+  list-style-position: outside; /* Noktalar klasik solda */
+  display: inline-block;        /* Listeyi ortalamak için */
+  margin: 0 auto;               /* Ortalar */
+  text-align: left;             /* Satırlar düzgün hizalanır */
+  padding: 0;                   /* Soldaki ekstra boşluğu azaltır */
+}
+
+section p, section h4 {
+  text-align: left;             /* p ve h4ü yana aldı*/
+}
+
+h4 {
+    color: #c6a0a0;
+}
+
+p a {
+  color: #a94f4f;       /* link rengi */
+  
+}
